@@ -3,7 +3,7 @@ layout: default
 title: Blogs
 ---
 	<ul class="posts">
-
+	  <h3>There are currently {{ site.posts | size }} posts.</h3>
 	  {% for post in site.posts %}
 	  <ul>
 	    <li>

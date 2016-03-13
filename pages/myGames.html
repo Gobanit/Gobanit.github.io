@@ -1,0 +1,30 @@
+---
+layout: default
+title: My Games
+---
+	<p>
+		Some of my games are already on indie game developers web <a class="classic_link" href="http://gamejolt.com/profile/gobanit/389166/" target="_blank"> GameJolt </a>.  
+		I would be glad if you could support me there :)
+	</p>
+	<hr>
+	
+	{% for game in site.game_projects %}
+		<h2>{{ game.name }}:</h2> 
+		<img src={{ game.icon }} width="32" height="32">
+		<p>
+		<b>Description:</b><br>
+		{{ game.content }}
+		</p>
+		<p>
+		<b>Download:</b><br>
+		<a href={{ game.desktop }}>{{ game.name }}-desktop</a> 
+		{% if game.android != null %}
+		<br>
+		<a href={{ game.android }}>{{ game.name }}-android</a> 
+		{% endif %}
+		</p>
+		<hr>			
+	 {% endfor %}
+	 
+	 <p>
+	 Well, I guess that`s all I`m not ashamed to publish. For now...
