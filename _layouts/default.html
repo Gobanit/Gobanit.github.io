@@ -2,11 +2,10 @@
 	<html>
 		<head>
 			<title>{{ page.main_title }}</title>
-			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
-		<body>
-			<center><h1>{{page.title}}</h1></center>
+		
+				<center><h1>{{page.title}}</h1></center>
 			
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
@@ -22,13 +21,16 @@
 			{{ content }}
 			
 			</div><!-- /.container -->
-			
+		
+		<body>
 			<footer>
 				<hr>
 				<p>
 					If something doesn't work correctly, write me an email to <a href="mailto:gobanit15@gmail.com">gobanit15@gmail.com</a>.
 					<br>
-					You can find more projects on my <a href="https://github.com/gobanit">GitHub Site</a>.
+					You can find more projects on my <a href="https://github.com/gobanit" target ="_blank" >GitHub Site</a>.
+					<br>
+					Last Build: {{ site.time | date: "%m/%d/%Y" }}
 				</p>
 			</footer>
 		</body>

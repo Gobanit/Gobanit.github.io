@@ -6,22 +6,22 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
+			
+	
+		
+			<div class="container">
 			<center>
-			<nav>
-	    		<ul>
+			{{ content }}
+			
+				<ul>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/pages/about">About</a></li>
 					<li><a href="/blog">Blogs</a></li>
 	        		<li><a href="/pages/aboutJava.html">Java</a></li>
-					<li><a href="/pages/links.html">Useful links</a></li>	        		
+					<li><a href="/pages/links.html">Useful links</a></li>	
 	    		</ul>
-			
-			</nav>
-			<hr>
-			<div class="container">
-			
-			{{ content }}
-			
+				
+				<br>
 			</div><!-- /.container -->
 			</center>
 			
@@ -32,8 +32,10 @@
 					If something doesn't work correctly, write me an email to <a href="mailto:gobanit15@gmail.com">gobanit15@gmail.com</a>
 					<br>
 					You can find more projects on my <a href="https://github.com/gobanit">GitHub Site</a>.
-					</p>
-			</center>
+					<br>
+					Last Build: {{ site.time | date: "%m/%d/%Y" }}
+				</p>
+				</center>
 			</footer>
 		</body>
 	</html>

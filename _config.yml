@@ -9,4 +9,7 @@ defaults:
       nickname: "Gobanit"
       main_title: "Gobanit Web"
       title: "Gobanit Static Web"
+collections:
+    game_projects:
+
 
