@@ -1,3 +1,12 @@
-name: Hank Quinlan, Horrible Cop
+name: Michal Randak
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      nickname: "Gobanit"
+      main_title: "Gobanit Web"
+      title: "Gobanit Static Web"
+
