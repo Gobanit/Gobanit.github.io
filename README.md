@@ -1,3 +1,3 @@
 # Gobanit.github.io
 
-readme
+https://github.com/Gobanit/Gobanit.github.io
