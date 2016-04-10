@@ -5,14 +5,14 @@ title: DocBook
 
 <p>
 Dokument je generovaný podľa <a href=https://wiki.fiit.stuba.sk/study/bc/info/wp/2015-16/zadanie2/sablona-wp.zip>šablóny</a>. 
-Členený je na kapitoly &ltchapter&gd a podkapitoly &ltsection&gt. Podpodkapitoly som nevyužíval. 
+Členený je na kapitoly &ltchapter&gt a podkapitoly &ltsection&gt. Podpodkapitoly som nevyužíval. 
 Na začiatku je titulná strana nasledovaná anotáciou v slovenčine a angličtine.
 Pred Úvodom je ešte generovaný obsah a zoznam obrázkov. Ten bol pridaný upravením thesis.xls.
 </p>
 <p>
 V texte je niekoľko krát použité zvýraznenie určitých slov tagom &ltemphasis&gt. 
 Na odrážkovanie a číslovanie boli použité &ltitemizedlist&gt a &ltorderedlist&gt.
-Odkazy na vlastné časti sa dajú nájsť v úvode. Využité boli tagy <xref linked="?"/> a atribút <b>id</b> v &ltchapter&gt.
+Odkazy na vlastné časti sa dajú nájsť v úvode. Využité boli tagy &ltxref linked="?"/&gt a atribút <b>id</b> v &ltchapter&gt.
 Rovnako fungujú aj odkazy na obrázky (figure).
 </p>
 <p>
@@ -20,12 +20,12 @@ Poznámky pod čiarou sú v texte veľa krát. Použitý bol tag &ltfootnote&gt 
 Obrázky fungujú pomocou &ltfigure&gt a &ltimageobject&gt. Tabuľky v dokumente nie sú.
 </p>
 <p>
-Na konci je pridaný index pojmov cez &ltindex/&gt. Slová sú do neho pridávané cez &ltindexterm&gt, &ltprimary&gt, &ltsecondary&gt.
+Na konci je pridaný index pojmov cez &ltindex/&gt. Slová sú do neho pridávané cez &ltindexterm&gt &ltprimary&gt &ltsecondary&gt.
 Nasledujú dve prílohy &ltappendix&gt.
 Na úplnom konci je zoznam použitej literatúry. Citácie sú rozmiestené v texte a odkazujú sa tagom &ltcitation&gt. 
 </p>
 <p>
-V thesis.xls a thesis-tp-fo.xsl boli spravené len menšie zmeny. Konkrétne zakomentovanie časti v template, ktorá pridávala slovo "Kapitola" a číslo do názvu kapitoly.
-Ďalej bolo pridané generovanie zoznamu obrázkov a tabuliek. V thesis-tp-fo.xls bol zmenený template tak aby písal "Vedúci práce" namiesto českého "Vedoucí práce".
+V <b>thesis.xls</b> a <b>thesis-tp-fo.xsl</b> boli spravené len menšie zmeny. Konkrétne zakomentovanie časti v template, ktorá pridávala slovo "Kapitola" a číslo do názvu kapitoly.
+Ďalej bolo pridané generovanie zoznamu obrázkov a tabuliek. V <b>thesis-tp-fo.xls</b> bol zmenený template tak aby písal "Vedúci práce" namiesto českého "Vedoucí práce".
 V dokumente ešte bolo treba zmenit &ltbook lang="sk"> aby odkazy na figure písalo v slovenčine.
 </p>
