@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT presentation (config?, content)>
+<!ELEMENT config (background?, textsize?)>
+<!ELEMENT background (color?)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT textsize (#PCDATA)>
+<!ELEMENT content (meta, intro?, ((slide*) | section*), final?)>
+<!ELEMENT meta (title, author, company?, date?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT company (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT intro EMPTY>
+<!ELEMENT content_table EMPTY>
+<!ELEMENT section (title, slide*)>
+<!ELEMENT slide ((title?, background?, content_table) | (title, background?, body))>
+<!ELEMENT body (#PCDATA | itemize | enum | ln | emph | ital | bold | center | figure | footnote | url)*>
+<!ELEMENT center (#PCDATA | itemize | enum | ln | emph | ital | bold | figure | footnote | url)*>
+<!ELEMENT emph (#PCDATA | ln | emph | ital | bold | footnote)*>
+<!ELEMENT ital (#PCDATA | ln | emph | ital | bold | footnote)*>
+<!ELEMENT bold (#PCDATA | ln | emph | ital | bold | footnote)*>
+<!ELEMENT itemize (item*)>
+<!ELEMENT enum (item*)>
+<!ELEMENT item (#PCDATA | itemize | enum | ln | emph | ital | bold | figure | footnote | url)*>
+<!ELEMENT figure (path, width?, height?, centered?, caption?)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT width (#PCDATA)>
+<!ELEMENT height (#PCDATA)>
+<!ELEMENT centered (#PCDATA)>
+<!ELEMENT caption (#PCDATA)>
+<!ELEMENT footnote (#PCDATA | url)*>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT ln EMPTY>

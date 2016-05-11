@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<!DOCTYPE presentation SYSTEM "dtd.xml">
+
+
+<presentation>
+	<config>
+		<background>
+			<color>775511</color>
+		</background>
+	</config>
+	<content>
+		<meta>
+			<title>Java</title>
+			<author>Michal</author>
+			<company>Javatar s.r.o</company>
+			<date>11.5.2016</date>
+		</meta>
+		
+		<intro/>
+				
+		<section>
+			<title>Uvod</title>
+			
+			<slide>
+				<title>Obsah</title>
+				<content_table/>
+			</slide>
+		
+		<slide>
+			<title>Co je Java</title>
+			<body>
+			Objektovo orientovany programovaci jazyk, vytvoreny v roku 1995 firmou Sun.<ln/>
+			Je interpretovany, bezi na JVM<footnote>Java Virtual Machine</footnote>.
+			<figure>
+				<path>imgs/java.png</path>
+				<width>100</width>
+				<height>100</height>
+				<centered/>
+				<caption>Java logo</caption>
+			</figure>
+			</body>
+		</slide>
+		<slide>
+			<title>Preco Java?</title>
+			<body>
+				Vyhody a principy<footnote><url>http://java.about.com/od/gettingstarted/a/whatisjava.htm</url></footnote>:
+				<itemize>
+					<item><bold>Jednoduchost</bold> - zaklady v jazyku C++</item>
+					<item><bold>Spolahlivost</bold> - znizuje pravdepodobnost fatalnych chyb</item>
+					<item><bold>Platformova nezavislost</bold> - podporuje takmer vsetky operacne systemy
+						<itemize>
+							<item>Windows</item>
+							<item>Linux</item>
+							<item>Mac</item>
+						</itemize>
+					</item>
+					<item><bold>Bezpecnost</bold> - proste je bezpecna...</item>
+				</itemize>
+			</body>
+		</slide>
+		</section>
+		
+		<section>
+			<title>Jadro</title>
+			<slide>
+				<title>Instalacia</title>
+				<background>
+					<color>#444400</color>
+				</background>
+				<body>
+					K vypisu <emph>Hello World!</emph> su nutne tieto kroky:
+					<enum>
+						<item>Stiahnut a nainstalovat <bold>JVM</bold></item>
+						<item>Stiahnut a nainstalovat <bold>JDK<footnote>Java Developer Kit</footnote></bold></item>
+						<item>Stiahnut a nainstalovat <bold>IDE<footnote>Integrated Development Environment </footnote></bold></item>
+						<item>Vytvorit triedu a vypisat</item>
+					</enum>
+				</body>
+			</slide>
+			
+		</section>
+		
+		<section>
+			<title>Zaver</title>
+			<slide>
+				<title>Vdaka za pozornost!!</title>
+				<body>
+					<figure>
+						<path>imgs/duke.png</path>
+						<width>100</width>
+						<height>100</height>
+						<centered/>
+					</figure>
+				</body>
+			</slide>
+		</section>
+	</content>
+</presentation>
