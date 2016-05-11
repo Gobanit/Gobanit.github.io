@@ -76,6 +76,19 @@
 						<item>Stiahnut a nainstalovat <bold>IDE<footnote>Integrated Development Environment </footnote></bold></item>
 						<item>Vytvorit triedu a vypisat</item>
 					</enum>
+					<figure>
+						<path>imgs/eclipse.png</path>
+						<width>75</width>
+						<height>75</height>
+						<caption>Eclipse IDE logo</caption>
+					</figure>
+					
+					<figure>
+						<path>imgs/netbeans.png</path>
+						<width>75</width>
+						<height>75</height>
+						<caption>Netbeans IDE logo</caption>
+					</figure>
 				</body>
 			</slide>
 			
